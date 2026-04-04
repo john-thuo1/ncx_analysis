@@ -7,7 +7,7 @@ Sex-specific dofetilide-induced repolarisation instability in a human ventricula
 This repository contains the MATLAB code, scripts, and output files used for investigating whether compounded Na+/Ca2+ exchange (NCX) upregulation in sex-parameterised T2DM ventricular cell models increases sensitivity to dofetilide-induced repolarisation instability, and whether this effect is attenuated by resetting NCX to control level.
 
 The analysis uses:
-- sex- and cell-type-specific ToRORd-Land baselines from Holmes et al.
+- sex- and cell-type-specific ToRORd-Land baselines from [Holmes et al.](https://www.biorxiv.org/content/10.1101/2025.03.14.643310v1.full.pdf)
 - a compact T2DM remodelling layer
 - dofetilide concentration-response simulations
 - instability and strict EAD threshold analyses

@@ -1,10 +1,10 @@
 # ncx_analysis
 
-Sex-specific dofetilide-induced repolarisation instability in a human ventricular model of type 2 diabetes (T2DM), using the ToR-ORd / ToRORd-Land framework with NCX-focused follow-up analyses.
+Sex-specific dofetilide-induced repolarisation instability in a human ventricular model of type 2 diabetes (T2DM), using the [ToR-ORd / ToRORd-Land framework](https://github.com/MaxxHolmes/Sex_Specific_Human_Electromechanics/tree/main) with NCX-focused follow-up analyses.
 
 ## Overview
 
-This repository contains the MATLAB code, scripts, and output files used for a mini-project investigating whether compounded Na+/Ca2+ exchange (NCX) upregulation in sex-parameterised T2DM ventricular cell models increases sensitivity to dofetilide-induced repolarisation instability, and whether this effect is attenuated by resetting NCX to control level.
+This repository contains the MATLAB code, scripts, and output files used for investigating whether compounded Na+/Ca2+ exchange (NCX) upregulation in sex-parameterised T2DM ventricular cell models increases sensitivity to dofetilide-induced repolarisation instability, and whether this effect is attenuated by resetting NCX to control level.
 
 The analysis uses:
 - sex- and cell-type-specific ToRORd-Land baselines from Holmes et al.
@@ -16,7 +16,7 @@ The analysis uses:
 ## Repository structure
 
 - `Sex_Specific_Human_Electromechanics/`  
-  Public Holmes sex-specific ToRORd-Land model files used as the simulation framework.
+  Public Holmes sex-specific [ToR-ORd / ToRORd-Land framework](https://github.com/MaxxHolmes/Sex_Specific_Human_Electromechanics/tree/main) model files used as the simulation framework.
 
 - `functions/`  
   Helper MATLAB functions for pacing, biomarker extraction, threshold detection, and analysis.
@@ -32,7 +32,7 @@ The analysis uses:
 
 ## Main study outputs
 
-The main outputs reported in the mini-project are:
+The main outputs reported in the project are
 - baseline AP/CaT summaries across sex, disease state, and cell type
 - strict EAD threshold summary (`C_EAD`)
 - broader repolarisation-instability threshold summary (`C_instab`)
@@ -43,7 +43,7 @@ The main outputs reported in the mini-project are:
 
 1. Clone this repository.
 2. Open MATLAB in the project root.
-3. Run:
+3. Run
 
 ```matlab
 setup_paths

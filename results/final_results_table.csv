@@ -1,7 +1,0 @@
-Cell,Sex,State,C_EAD_nM,C_instab_nM,Trigger,NCXreset_C_instab_nM
-Endo,Male,Control,--,>1000,--,--
-Endo,Male,T2DM,--,90.96,APD90>0.8BCL,>1000
-Endo,Female,Control,--,>1000,--,--
-Endo,Female,T2DM,--,4.25,APD90>0.8BCL,>1000
-Epi,Male,Control,--,>1000,--,--
-Epi,Male,T2DM,28.86,0.10,APD90>0.8BCL,--

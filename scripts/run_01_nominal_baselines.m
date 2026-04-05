@@ -30,6 +30,7 @@ for ic = 1:numel(celltypes)
             result.X0_ss = out.X0;
             result.nBeats = out.nBeats;
             result.converged = out.converged;
+            result.isPhys = out.isPhys;
 
             outFile = fullfile('results', sprintf('baseline_%s_%s_%s.mat', ...
                 celltypes{ic}, sexes{is}, diseases{id}));
